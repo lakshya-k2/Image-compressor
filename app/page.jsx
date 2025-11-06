@@ -198,7 +198,7 @@ export default function HomePage() {
                     min="60"
                     max="100"
                     value={quality}
-                    onChange={(e) => setQuality(Number(e.target.value))} // This class uses the custom styles from globals.css // accent-color is a fallback for non-Webkit browsers
+                    onChange={(e) => setQuality(Number(e.target.value))}
                     className="w-full accent-[#0070f3]"
                   />
                 </div>
